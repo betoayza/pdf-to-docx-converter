@@ -32,7 +32,6 @@ def convert():
 
     try:
         file_extension = pdf_file_path[pdf_file_path.rindex(".")+1:]
-        print(file_extension)
 
         if file_extension == "pdf":
             label_result.config(text="Converting...", fg="yellow")
